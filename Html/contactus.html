@@ -1,0 +1,54 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="..\css\contact.css">
+    </head>
+    <body>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href='..\Html\index.html'>Home</a></li>
+                <li><a href='#'>Plants</a></li>
+                <li><a href='#'>Tools</a></li>
+                <li><a href='..\Html\contactus.html' class="active">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <div class="details">
+            <h3>Full Name</h3>
+            <input type="text" class="input" name="Full Name" placeholder="Enter Your Full Name" required>
+            </div> 
+            <div class="details">
+                <h3>Email address</h3>
+            <input type="text" class="input" placeholder="example@gmail.com" required>
+            </div>
+            <div class="details">
+                <h3>Subject</h3>
+            <input type="text" class="input" placeholder="" required>
+            </div>
+            <div class="details">
+                <h3>How can we help?</h3>
+            <input type="text" class="input-details" placeholder="" required>
+            </div>
+            <button class="contact-btn" onclick="msgSent()">Send</button>
+            <p class="msg">Message Sent Sucessfully</p>
+        
+            </div>
+
+        
+    <script>
+    // var msg=document.getElementsByClassName("msg");
+    const msg = document.querySelector(".msg");
+    
+    function msgSent(){
+    msg.style.display="block";
+    }
+
+    </script>
+        
+    </body>
+    </html>
