@@ -1,0 +1,100 @@
+body
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    background: url("../img/contactbg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 105vh;
+    background-repeat: no-repeat;
+    color: white;
+}
+.mid
+{
+    display: block;
+    width:45%;
+    margin: 20px auto;
+    border: 2px;
+}
+.navbar
+{
+    display: inline-block;
+}
+
+.navbar li
+{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover
+{
+    text-decoration: underline;
+    color: grey;
+}
+
+.navbar li a.active
+{
+    color: rgb(210, 255, 127);
+}
+.contact
+{
+    text-align:center;
+    border-radius: 20px;
+    margin: auto;
+    position: center;
+    height:560px;
+    width: 450px;
+    background: #ffffff   
+}
+.contact h3{color: black;}
+.input-details{
+    height: 100px;
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgb(61, 52, 52);
+    margin: 6px 0px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(80, 73, 73);
+}
+
+.input
+{
+    width: 80%;
+    background: transparent;
+    border: 1px solid rgb(61, 52, 52);
+    margin: 6px 0px;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(80, 73, 73);
+}
+.contact-btn{
+    border-radius:50%;
+    height:35px;
+    width:60px;
+    background-color: rgb(189, 145, 0);
+}
+.contact-btn:hover
+{
+cursor:pointer;
+background-color: rgb(223, 27, 27);
+}
+.msg
+{
+color: blue;
+display: none;
+
+}
